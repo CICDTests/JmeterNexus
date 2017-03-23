@@ -63,10 +63,7 @@
                     <artifactId>maven-source-plugin</artifactId>
                     <version>2.4</version>
                 </plugin>
-            </plugins>
-        </pluginManagement>
-        <plugins>
-            <plugin>
+				      <plugin>
                 <groupId>org.wildfly.plugins</groupId>
                 <artifactId>wildfly-maven-plugin</artifactId>
                 <version>1.0.2.Final</version>
@@ -81,8 +78,6 @@
                 </executions>
 -->
             </plugin>
-        </plugins>
-		<plugins>
 			<plugin>
 				<groupId>com.lazerycode.jmeter</groupId>
 				<artifactId>jmeter-maven-plugin</artifactId>
@@ -100,7 +95,14 @@
 					</execution>
 				</executions>
 			</plugin>
-		</plugins>
+            </plugins>
+        </pluginManagement>
+       
+      
+       
+	
+			
+		
 	</build>
 	<profiles>
         <profile>
